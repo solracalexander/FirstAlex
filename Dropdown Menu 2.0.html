@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Arana - Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('beach_background.jpg'); /* Add your beach background image path here */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            margin: 75px auto; /* Added margin for spacing */
+            padding: 25px;
+            max-width: 600px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            text-align: left;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #999; /* Slightly darker color */
+            display: block;
+            padding: 10px 15px;
+            font-weight: bold; /* Bold font */
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        nav .dropdown {
+            display: inline-block;
+        }
+
+        nav .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        nav .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 125px auto; /* Added margin for spacing */
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #FFD700; /* Gold color */
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 160px; /* Added margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alexander Arana</h1>
+        <p>Peruvian-American who loves <a href="#sports" style="color: #DAA520;">sports</a>, video games, and anything competitive. Enjoys stargazing with a <a href="#telescope" style="color: #DAA520;">telescope</a> and exploring with Tidus, a smart German Shepherd mix.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#deeper_interests">Deeper Interests</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Adventures</a>
+                <div class="dropdown-content">
+                    <a href="#past_adventures">Past Adventures</a>
+                    <a href="#photo_album">Photo Album</a>
+                </div>
+            </li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I grew up by the beach and the city, embracing the beauty of both. My love for <a href="#sports" style="color: #DAA520;">sports</a>, video games, and competitiveness keeps me engaged and excited. Stargazing with my <a href="#telescope" style="color: #DAA520;">telescope</a> is one of my favorite pastimes, and I'm hoping to get a good microscope for recreational purposes soon. Exploring new places with my best friend Tidus, a German Shepherd mix, is always an adventure.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Alexander Arana | Designed with inspiration from nature</p>
+    </footer>
+</body>
+</html>
